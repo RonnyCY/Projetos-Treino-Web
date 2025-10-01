@@ -23,10 +23,11 @@ section{
     margin: 30px;
     gap: 10px;
 
-    background-color: rgb(77, 77, 77);
-    box-shadow:0px 0px 10px rgba(255, 255, 255, 0.356);
+    background: #000000;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(51, 50, 50, 1) 11%, rgba(66, 66, 66, 1) 22%, rgba(84, 84, 84, 1) 62%, rgba(43, 43, 43, 1) 92%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 1) 100%);
+    box-shadow:0px 0px 10px rgb(0, 0, 0);
 
-    border: 2px solid rgb(77, 77, 77);
+    border: 2px solid rgba(0, 0, 0, 1) 98%;
     border-radius: 5%;
 }
 
@@ -34,7 +35,8 @@ section{
     width: 68px;
     height: 68px;
 
-    background-color: rgb(145, 16, 16);
+    background: #780000;
+    background: radial-gradient(circle, rgba(120, 0, 0, 1) 0%, rgba(92, 0, 0, 1) 32%, rgba(31, 0, 0, 1) 100%);
 
     border: 10px solif rgb(145, 16, 16);
     border-radius: 50%;
@@ -44,9 +46,10 @@ section{
     width: 68px;
     height: 68px;
 
-    background-color: rgb(138, 138, 13);
+    background: #999e00;
+    background: radial-gradient(circle, rgba(153, 158, 0, 1) 29%, rgba(82, 78, 0, 1) 72%, rgba(54, 54, 0, 1) 100%);
 
-    border: 1.5px solid rgb(138, 138, 13);
+    border: 1.5px solid rgba(82, 78, 0, 1);
     border-radius: 50%;
 }
 
@@ -54,9 +57,10 @@ section{
     width: 68px;
     height: 68px;
 
-    background-color: rgb(28, 145, 37);
+    background: #008702;
+    background: radial-gradient(circle, rgba(0, 135, 2, 1) 31%, rgba(10, 46, 0, 1) 79%, rgba(1, 36, 0, 1) 100%);
 
-    border: 1.5px solid rgb(28, 145, 37);
+    border: 1.5px solid rgba(10, 46, 0, 1) 79%;
     border-radius: 50%;
 }
 
