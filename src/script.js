@@ -12,56 +12,63 @@ let semaforoInterval = null;
 
 
 const fase1 = () => {
-    vermelho.style.backgroundImage = "radial-gradient( circle 71px at 48.3% 54.8%,  rgba(255,180,180,1) 0%, rgba(229,0,0,1) 90% )";
+    vermelho.style.backgroundImage = "radial-gradient(circle,rgba(242, 85, 85, 1) 29%, rgba(173, 0, 0, 1) 72%, rgba(31, 0, 0, 1) 100%)";
     vermelho.style.boxShadow = "0 0 30px rgba(255, 0, 0, 1)";
 
-    amarelo.style.backgroundColor = "rgb(138, 138, 13)";
+    amarelo.style.backgroundColor = "#999e00";
+    amarelo.style.backgroundImage = "radial-gradient(circle, rgba(153, 158, 0, 1) 29%, rgba(82, 78, 0, 1) 72%, rgba(54, 54, 0, 1) 100%)";
     amarelo.style.boxShadow = "None";
-    amarelo.style.backgroundImage = "None";
+    amarelo.style.border = "1.5px solid rgba(82, 78, 0, 1)"
     
-    verde.style.backgroundColor = "rgb(28, 145, 37)";
+    verde.style.backgroundColor = "#008702";
+    verde.style.backgroundImage = "radial-gradient(circle, rgba(0, 135, 2, 1) 31%, rgba(10, 46, 0, 1) 79%, rgba(1, 36, 0, 1) 100%)";
     verde.style.boxShadow = "None";
-    verde.style.backgroundImage = "None";
+    verde.style.border = "border: 1.5px solid rgba(10, 46, 0, 1) 79%";
 };
 
 const fase2 = () => {
-    vermelho.style.backgroundColor = "rgb(145, 16, 16)";
-    vermelho.style.backgroundImage = "None";
+    vermelho.style.backgroundColor = "#780000";
+    vermelho.style.backgroundImage = "radial-gradient(circle, rgba(120, 0, 0, 1) 0%, rgba(92, 0, 0, 1) 32%, rgba(31, 0, 0, 1) 100%)";
     vermelho.style.boxShadow = "None";
 
-    amarelo.style.backgroundImage = "radial-gradient( circle 57px at 47.8% 53.5%,  rgba(255,247,194,1) 0%, rgba(255,236,43,1) 90% )";
+    amarelo.style.backgroundImage = "radial-gradient(circle,rgba(251, 255, 133, 1) 29%, rgba(224, 209, 0, 1) 72%, rgba(171, 171, 0, 1) 100%)";
     amarelo.style.boxShadow = "0 0 30px rgba(238, 255, 0, 1)";
+    amarelo.style.border = "1.5px solid rgba(224, 209, 0, 1)"
     
-    verde.style.backgroundColor = "rgb(28, 145, 37)";
+    verde.style.backgroundColor = "#008702";
+    verde.style.backgroundImage = "radial-gradient(circle, rgba(0, 135, 2, 1) 31%, rgba(10, 46, 0, 1) 79%, rgba(1, 36, 0, 1) 100%)";
     verde.style.boxShadow = "None";
-    verde.style.backgroundImage = "None";
+    verde.style.border = "border: 1.5px solid rgba(10, 46, 0, 1) 79%";
 };
 
 const fase3 = () => {
-    vermelho.style.backgroundColor = "rgb(145, 16, 16)";
-    vermelho.style.backgroundImage = "None";
+    vermelho.style.backgroundColor = "#780000";
+    vermelho.style.backgroundImage = "radial-gradient(circle, rgba(120, 0, 0, 1) 0%, rgba(92, 0, 0, 1) 32%, rgba(31, 0, 0, 1) 100%)";
     vermelho.style.boxShadow = "None";
     
-    amarelo.style.backgroundColor = "rgb(138, 138, 13)";
+    amarelo.style.backgroundColor = "#999e00";
+    amarelo.style.backgroundImage = "radial-gradient(circle, rgba(153, 158, 0, 1) 29%, rgba(82, 78, 0, 1) 72%, rgba(54, 54, 0, 1) 100%)";
     amarelo.style.boxShadow = "None"
-    amarelo.style.backgroundImage = "None";
+    amarelo.style.border = "1.5px solid rgba(82, 78, 0, 1)"
     
     verde.style.backgroundImage = "radial-gradient( circle 36px at 47.3% 51.3%,  rgba(197,255,179,1) 0%, rgba(84,255,24,1) 77% )";
     verde.style.boxShadow = "0 0 30px rgba(0, 255, 34, 1)"
 };
 
 const fase4 = () => {
-    vermelho.style.backgroundColor = "rgb(145, 16, 16)";
-    vermelho.style.backgroundImage = "None";
+    vermelho.style.backgroundColor = "#780000";
+    vermelho.style.backgroundImage = "radial-gradient(circle, rgba(120, 0, 0, 1) 0%, rgba(92, 0, 0, 1) 32%, rgba(31, 0, 0, 1) 100%)";
     vermelho.style.boxShadow = "None";
     
-    amarelo.style.backgroundColor =  "rgb(138, 138, 13)";
+    amarelo.style.backgroundColor = "#999e00";
+    amarelo.style.backgroundImage = "radial-gradient(circle, rgba(153, 158, 0, 1) 29%, rgba(82, 78, 0, 1) 72%, rgba(54, 54, 0, 1) 100%)";
     amarelo.style.boxShadow = "None";
-    amarelo.style.backgroundImage = "None";
+    amarelo.style.border = "1.5px solid rgba(82, 78, 0, 1)"
     
-    verde.style.backgroundColor = "rgb(28, 145, 37)";
+    verde.style.backgroundColor = "#008702";
+    verde.style.backgroundImage = "radial-gradient(circle, rgba(0, 135, 2, 1) 31%, rgba(10, 46, 0, 1) 79%, rgba(1, 36, 0, 1) 100%)";
     verde.style.boxShadow = "None";
-    verde.style.backgroundImage = "None";
+    verde.style.border = "border: 1.5px solid rgba(10, 46, 0, 1) 79%";
 };
 
 const semaforo = () => {
